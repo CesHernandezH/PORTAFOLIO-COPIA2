@@ -10,7 +10,7 @@ hamburguesa.addEventListener(`click`, ()=>{
 
 window.addEventListener(`click`, e=>{
     
-    if (menu.classList.contains("spread")&& e.target!=menu && e.target!= hamburguesa) {
+    if (menu.classList.contains(`spread`)&& e.target!=menu && e.target!= hamburguesa) {
 
         menu.classList.toggle("spread")
         
